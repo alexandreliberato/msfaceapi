@@ -48,7 +48,7 @@ class MainActivity : AppCompatActivity() {
 
     private var mVisible: Boolean = false
     private val mHideRunnable = Runnable { hide() }
-    private val faceServiceClient = FaceServiceRestClient("https://brazilsouth.api.cognitive.microsoft.com/face/v1.0", "4c64e149602341a480c43b4e49b28ea9")
+    private val faceServiceClient = FaceServiceRestClient("https://brazilsouth.api.cognitive.microsoft.com/face/v1.0", "asd")
 
     private val CAMERA_REQUEST = 1888
     private var imageViewFoto: ImageView? = null
